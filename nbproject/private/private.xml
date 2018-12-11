@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/Bryce/Documents/NetBeansProjects/GetBack2/src/commands/Command.java</file>
+            <file>file:/C:/Users/Bryce/Documents/NetBeansProjects/GetBack2/src/httpUtil/Invoker.java</file>
+            <file>file:/C:/Users/Bryce/Documents/NetBeansProjects/GetBack2/src/config.yml</file>
+            <file>file:/C:/Users/Bryce/Documents/NetBeansProjects/GetBack2/src/commands/Quit.java</file>
+            <file>file:/C:/Users/Bryce/Documents/NetBeansProjects/GetBack2/src/getback/Config.java</file>
+            <file>file:/C:/Users/Bryce/Documents/NetBeansProjects/GetBack2/src/commands/Help.java</file>
+            <file>file:/C:/Users/Bryce/Documents/NetBeansProjects/GetBack2/src/json/JSONObjects.java</file>
+            <file>file:/C:/Users/Bryce/Documents/NetBeansProjects/GetBack2/src/data/SQLSaver.java</file>
+            <file>file:/C:/Users/Bryce/Documents/NetBeansProjects/GetBack2/src/api/APILoader.java</file>
+            <file>file:/C:/Users/Bryce/Documents/NetBeansProjects/GetBack2/src/commands/Restart.java</file>
+            <file>file:/C:/Users/Bryce/Documents/NetBeansProjects/GetBack2/src/httpUtil/HttpMirror.java</file>
+            <file>file:/C:/Users/Bryce/Documents/NetBeansProjects/GetBack2/src/api/index.java</file>
+            <file>file:/C:/Users/Bryce/Documents/NetBeansProjects/GetBack2/src/api/WebsitePluginLoader.java</file>
+            <file>file:/C:/Users/Bryce/Documents/NetBeansProjects/GetBack2/src/getback/GetBack.java</file>
+            <file>file:/C:/Users/Bryce/Documents/NetBeansProjects/GetBack2/src/api/WebsitePlugin.java</file>
+            <file>file:/C:/Users/Bryce/Documents/NetBeansProjects/GetBack2/src/api/user.java</file>
+            <file>file:/C:/Users/Bryce/Documents/NetBeansProjects/GetBack2/src/getback/Logger.java</file>
+        </group>
+    </open-files>
+</project-private>

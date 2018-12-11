@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTabPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="452.0" prefWidth="771.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.141" fx:controller="getback.FXMLDocumentController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <JFXTabPane prefHeight="452.0" prefWidth="771.0">
+         <tabs>
+            <Tab text="Status">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Label layoutX="53.0" layoutY="50.0" text="HTTP Mirror Status:" />
+                        <Label layoutX="53.0" layoutY="86.0" text="Data Backend Status:" />
+                        <Label fx:id="lblMirrorStatus" layoutX="164.0" layoutY="50.0" text="Online" textFill="#00ff1e" />
+                        <Label fx:id="lblDataStatus" layoutX="171.0" layoutY="86.0" text="Online" textFill="#04ff00" />
+                     </children>
+                  </AnchorPane>
+              </content>
+            </Tab>
+         </tabs>
+      </JFXTabPane>
+    </children>
+</AnchorPane>
