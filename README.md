@@ -24,12 +24,12 @@ GetBack is currently in early development and much, if not all of the code is su
 with your cooperation this process will be speedy. Currently 1.x is considered to be unstable, as most of this code is proof of concept.
 GetBack should become stable as we reach 2.X. Please keep up to date with the wiki pages as the API itself will change too.
 
-1. [Websites & Plugins](#websiteplugins-&-websites)
+1. [Websites & Plugins](#websiteplugins--websites)
 2. [WebsitePlugin Example](#websiteplugin-example)
 3. [Backend Example](#backend-example)
 4. [More Examples](#more-examples)
 5. [Configuration](#configuration)
-6. [Extra Classes & Tools worth noticing](#extra-classes-&-tools-worth-noticing)
+6. [Extra Classes & Tools worth noticing](#extra-classes--tools-worth-noticing)
 7. [Download](#download)
 8. [Documentation](#documentation)
 9. [Getting Help](#getting-help)
