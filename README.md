@@ -280,8 +280,9 @@ public class user {
 ### More Examples
 We provide Examples in the [Example Directory](https://github.com/pablo67340/GetBack/tree/master/src/examples/java).
 
-In addition you can look at the many Discord Bots that were implemented using GetBack:
+In addition you can look at the many Website Plugins that were implemented using GetBack:
 - [NorthSell](https://github.com/pablo67340/NorthSell)
+- (Send us your repo link to have it featured!)
 
 [And many more!](https://github.com/search?q=GetBack+website&type=Repositories&utf8=%E2%9C%93)
 
