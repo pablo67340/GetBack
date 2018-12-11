@@ -7,8 +7,8 @@
 [ ![version][] ][download]
 [ ![license][] ](https://github.com/pablo67340/GetBack/tree/master/LICENSE)
 [ ![Discord](https://discordapp.com/api/guilds/464333963633098772/widget.png) ][discord-invite]
-[ ![FAQ] ](https://github.com/pablo67340/GetBack/wiki/FAQ)-FAQ)
-[ ![Troubleshooting] ](https://github.com/pablo67340/GetBack/Troubleshooting)-Troubleshooting)
+[ ![FAQ] ](https://github.com/pablo67340/GetBack/wiki/FAQ)
+[ ![Troubleshooting] ](https://github.com/pablo67340/GetBack/Troubleshooting)
 
 <img align="right" src="https://i.imgur.com/GCZVCyQ.png" height="200" width="200">
 
