@@ -329,9 +329,10 @@ sqlPassword: ''
 
 ### Extra Classes & Tools worth noticing:
 
-[PasswordAuthentication](https://github.com/pablo67340/GetBack/blob/master/src/runnable/PasswordAuthentication.java)
-[Identicon](https://github.com/pablo67340/GetBack/blob/master/src/runnable/Identicon.java)
-
+[PasswordAuthentication](https://github.com/pablo67340/GetBack/blob/master/src/org/getback4j/getback/runnable/PasswordAuthentication.java)
+[Identicon](https://github.com/pablo67340/GetBack/blob/master/src/org/getback4j/getback/runnable/Identicon.java)
+[JSONObjects](https://github.com/pablo67340/GetBack/blob/master/src/org/getback4j/getback/json/JSONObjects.java)
+[SQLSaver](https://github.com/pablo67340/GetBack/blob/master/src/org/getback4j/getback/data/SQLSaver.java)
 
 ## Download
 Latest Stable Version: [GitHub Release](https://github.com/pablo67340/getback/releases/latest)
@@ -362,6 +363,19 @@ The builds are distributed using JCenter through Bintray [JDA JCenter Bintray](h
 
 ## Documentation
 [Wiki Section](https://github.com/pablo67340/GetBack/wiki)
+
+
+## Console Commands
+There are various default console commands included with GetBack:
+
+help: lists all console commands and descriptions.
+disable {id/name}: disables the specified website plugin.
+enable {id/name}: enables the specified website plugin.
+quit: closes GetBack.
+restart: Restarts the GetBack instance.
+
+Custom commands can be added to GetBack by extending from the Command class, and running addCommand() in your GetBack instance.
+You can find more details in the [Wiki Section](https://github.com/pablo67340/GetBack/wiki).
 
 ## Getting Help
 
@@ -398,6 +412,10 @@ This project requires **Java 8**.<br>
    * Version: **27.0.1**
    * [GitHub](https://github.com/google/guava)
    * [JCenter Repository](https://bintray.com/bintray/jcenter/com.google.guava:guava)
+ * Lombok
+   * Version: **1.18.4**
+   * [GitHub](https://github.com/rzwitserloot/lombok)
+   * [JCenter Repository](https://bintray.com/bintray/jcenter/org.projectlombok:lombok)
 
 ## Related Projects
 
