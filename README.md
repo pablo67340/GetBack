@@ -13,11 +13,11 @@
 <img align="right" src="https://i.imgur.com/GCZVCyQ.png" height="200" width="200">
 
 # GetBack (Java GET/Backend)
-GetBack is an attempt to create a framework Java developers can use to put their skills to the test. Typically websites
-involve Apache, PHP, JavaScript, or even in ServerLet form using GlassFish or Tomcat. GetBack aims to eliminate
-the use for all of those. GetBack is a lightweight HTTP server that utilizes a WebsitePlugin framework to provide you
+GetBack is an attempt to create a framework Java developers can use to put their skills to the test and make websites! Typically websites
+involve installing a stack, LAMP, WAMP, JAMP, XAMPP, ETC. GetBack aims to eliminate
+the use for almost all of those. GetBack is a lightweight HTTP server that utilizes a WebsitePlugin framework to provide you
 an easy to use server that can comminucate using standard MySQL or other data methods. GetBack supports javascript powered
-websites such as Angular or React.
+websites such as Angular or React. GetBack only requires Java, MySQL to be installed(only if you plan on using MySQL).
 
 ## GetBack 1.x
 GetBack is currently in early development and much, if not all of the code is subject to change. Features will be added and bugs squashed,
