@@ -368,11 +368,11 @@ The builds are distributed using JCenter through Bintray [JDA JCenter Bintray](h
 ## Console Commands
 There are various default console commands included with GetBack:
 
-help: lists all console commands and descriptions.
-disable {id/name}: disables the specified website plugin.
-enable {id/name}: enables the specified website plugin.
-quit: closes GetBack.
-restart: Restarts the GetBack instance.
+1. help: lists all console commands and descriptions.
+2. disable {id/name}: disables the specified website plugin.
+3. enable {id/name}: enables the specified website plugin.
+4. quit: closes GetBack.
+5. restart: Restarts the GetBack instance.
 
 Custom commands can be added to GetBack by extending from the Command class, and running addCommand() in your GetBack instance.
 You can find more details in the [Wiki Section](https://github.com/pablo67340/GetBack/wiki).
