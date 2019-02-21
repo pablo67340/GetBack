@@ -74,7 +74,7 @@
             <zipgroupfileset dir="dist/lib" includes="*.jar"/>
 
             <manifest>
-                <attribute name="Main-Class" value="getback.GetBack"/>
+                <attribute name="Main-Class" value="org.getback4j.getback.main.GetBack"/>
             </manifest>
         </jar>
 

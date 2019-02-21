@@ -4,6 +4,9 @@ import org.getback4j.getback.main.GetBack;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import javafx.animation.Timeline;
 
 /**
  *
@@ -23,6 +26,8 @@ public final class SQLSaver {
      *
      */
     private final String host, database, username, password;
+    private Timeline lifecycle;
+    private Thread runningThread;
     private final int port;
 
     /**
@@ -52,6 +57,7 @@ public final class SQLSaver {
      * @throws ClassNotFoundException when your java is not version 8.
      */
     public void openConnection() throws SQLException, ClassNotFoundException {
+
         if (connection != null && !connection.isClosed()) {
             return;
         }
@@ -61,9 +67,23 @@ public final class SQLSaver {
                 return;
             }
             Class.forName("com.mysql.cj.jdbc.Driver");
+
             // TODO
             // Notice how useSSL is disabled. We should fix this later on as i'm sure users would love to use their secure bois
             connection = DriverManager.getConnection("jdbc:mysql://" + this.host + ":" + this.port + "/" + this.database + "?useSSL=false", this.username, this.password);
+            GetBack.getInstance().getLogger().log("Successfully established connection with MySQL Server");
+        }
+    }
+
+    public void checkAlive() {
+        if (runningThread.isAlive()) {
+            try {
+                if (getConnection().isClosed()) {
+                    runningThread.destroy
+                }
+            } catch (SQLException ex) {
+                GetBack.getInstance().getLogger().log("SQLException occured while checking isClosed status: "+ex.getMessage());
+            }
         }
     }
 
@@ -73,15 +93,27 @@ public final class SQLSaver {
      *
      */
     public void runDatabase() {
-        try {
-            openConnection();
-        } catch (ClassNotFoundException | SQLException e) {
-            GetBack.getInstance().getLogger().log("Error connecting to MYSQL. Stack: " + e.getMessage());
-            // TODO:
-            // Remove the system termination on SQL fail. Instead we should disable the plugin
-            // and pull the plug to its socket!
-            //System.exit(0);
-        }
+        runningThread = new Thread(() -> {
+            try {
+                openConnection();
+            } catch (ClassNotFoundException | SQLException e) {
+                GetBack.getInstance().getLogger().log("Error connecting to MYSQL. Stack: " + e.getMessage() + "\n");
+                // TODO:
+                // Remove the system termination on SQL fail. Instead we should disable the plugin
+                // and pull the plug to its socket!
+                //System.exit(0);
+                GetBack.getInstance().getLogger().log("Attempting reconnect in 5 seconds");
+
+                try {
+                    Thread.sleep(5000);
+                } catch (InterruptedException ex) {
+                    GetBack.getInstance().getLogger().log("Error pausing retry-thread");
+                }
+                GetBack.getInstance().getLogger().log("Attempting to connect to MySQL Server...");
+                runDatabase();
+            }
+        });
+        runningThread.start();
     }
 
     /**
