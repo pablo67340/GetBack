@@ -329,10 +329,10 @@ sqlPassword: ''
 
 ### Extra Classes & Tools worth noticing:
 
-[PasswordAuthentication](https://github.com/pablo67340/GetBack/blob/master/src/org/getback4j/getback/runnable/PasswordAuthentication.java)
-[Identicon](https://github.com/pablo67340/GetBack/blob/master/src/org/getback4j/getback/runnable/Identicon.java)
-[JSONObjects](https://github.com/pablo67340/GetBack/blob/master/src/org/getback4j/getback/json/JSONObjects.java)
-[SQLSaver](https://github.com/pablo67340/GetBack/blob/master/src/org/getback4j/getback/data/SQLSaver.java)
+- [PasswordAuthentication](https://github.com/pablo67340/GetBack/blob/master/src/org/getback4j/getback/runnable/PasswordAuthentication.java)
+- [Identicon](https://github.com/pablo67340/GetBack/blob/master/src/org/getback4j/getback/runnable/Identicon.java)
+- [JSONObjects](https://github.com/pablo67340/GetBack/blob/master/src/org/getback4j/getback/json/JSONObjects.java)
+- [SQLSaver](https://github.com/pablo67340/GetBack/blob/master/src/org/getback4j/getback/data/SQLSaver.java)
 
 ## Download
 Latest Stable Version: [GitHub Release](https://github.com/pablo67340/getback/releases/latest)
@@ -421,3 +421,4 @@ This project requires **Java 8**.<br>
 
 - [ForStore](https://github.com/pablo67340/ForStore)
 - [NorthSell](https://github.com/pablo67340/NorthSell)
+- [SQLiteLib](https://github.com/pablo67340/SQLiteLib)
