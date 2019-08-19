@@ -44,7 +44,7 @@ and a config.yml (containing webserver specific details). Currently, the website
 put your web files inside the `src` folder while working on it (but it may clutter your IDE), or you can bundle the files into your jar after you export/build it. 
 I would recommend using ForStore, its a convenient bundler I designed to make bunding depencies easier. You can package the website files using ForStore using the following steps:
 
-1. Download [ForStore](https://github.com/pablo67340/forstore/releases)
+1. Download [ForStore](https://github.com/pablo67340/getback/releases)
 2. Create a folder called `ForStore`, move `ForStore.jar` inside.
 3. Create a folder called `tmp`
 4. Copy all your website's assets into the tmp folder. This means when you navigate into `tmp`, you should see the root of your website.
